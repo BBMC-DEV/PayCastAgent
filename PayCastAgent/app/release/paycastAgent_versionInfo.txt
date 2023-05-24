@@ -1,0 +1,21 @@
+Version : paycastagent_r1424
+1. openType=“O” : 영업여부 추가
+2. 포장인 경우 예약시간 프린트 추가
+
+Version : paycastagent_r1425
+1. 주문한 메뉴명 20자 이상의 경우 앱이 죽는 현상 발생 수정
+
+Version : paycastagent_r1426
+1. 네트워크 불안정시 PayCastAgent.xml 초기화 되는 현상 수정
+
+Version : paycastagent_r1427
+1. 안드로이드 7로 넘어가면서 퍼미션에 대한 변경.
+(Context.MODE_WORLD_READABLE->Context.MODE_PRIVATE)
+
+Version : paycastagent_r1428
+1. 라이브러리 재빌드 버전
+
+Version : paycastagent_r1429
+1. 서버가 불안정할때 'PayCastAgentOpt.xml' 파일이 초기화되는 현상 발생.
+   'AgentService' 클래스가 호출될때마다 상기파일을 만드는 로직을 비활성화시킴.
+

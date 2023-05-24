@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="app/build/generated/not_namespaced_r_class_sources/debug/r"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="app/src/androidTest/java"/>
+	<classpathentry kind="src" path="app/src/main/java"/>
+	<classpathentry kind="src" path="app/src/test/java"/>
+	<classpathentry kind="src" path="selforderutil/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="selforderutil/src/androidTest/java"/>
+	<classpathentry kind="src" path="selforderutil/src/main/java"/>
+	<classpathentry kind="src" path="selforderutil/src/test/java"/>
+	<classpathentry kind="lib" path="app/build/intermediates/merged_java_res/debug/out.jar"/>
+	<classpathentry kind="lib" path="app/libs/Sewoo_Android_1092.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/compile_library_classes/debug/classes.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/library_java_res/debug/res.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/merged_java_res/debug/out.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/packaged-classes/debug/classes.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/packaged-classes/debug/libs/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/packaged-classes/debug/libs/jsch-0.1.54.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/packaged-classes/debug/libs/zip4j_1.3.2.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/packaged-classes/debug/libs/zip4j_1.3.3.jar"/>
+	<classpathentry kind="lib" path="selforderutil/build/intermediates/runtime_library_classes/debug/classes.jar"/>
+	<classpathentry kind="lib" path="selforderutil/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="selforderutil/libs/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="selforderutil/libs/jsch-0.1.54.jar"/>
+	<classpathentry kind="lib" path="selforderutil/libs/zip4j_1.3.2.jar"/>
+	<classpathentry kind="lib" path="selforderutil/libs/zip4j_1.3.3.jar"/>
+	<classpathentry kind="output" path="app/build/intermediates/javac/debug/classes"/>
+</classpath>

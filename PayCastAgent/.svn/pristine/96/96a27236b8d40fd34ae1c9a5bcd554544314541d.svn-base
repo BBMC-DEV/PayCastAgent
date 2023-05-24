@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+//            storeFile file('D:\\MediaCastAndroid\\svn\\workPayCast\\version\\PayCastAgent\\app\\signature\\tx6\\platform.jks')
+            storeFile file('D:\\MediaCastAndroid\\svn\\workPayCast\\version\\PayCastAgent\\app\\signature\\second\\platform.jks')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "kr.co.bbmc.paycastagent"
+        minSdkVersion 22
+        targetSdkVersion 26
+        versionCode 1428
+        versionName '1.4.28'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation project(':selforderutil')
+    implementation files('libs/Sewoo_Android_1092.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

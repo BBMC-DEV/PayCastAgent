@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">PayCastAgent</string>
+    <string name="minorVersion" translatable="false">35</string>
+    <string name="majorVersion" translatable="false">2</string>
+    <string name="paycast_did_network_instability" translatable="false">paycast did netwrok instability</string>
+    <string name="paycast_did_network_stability" translatable="false">paycast did netwrok stability</string>
+    <string name="paycast_agent_info_update" translatable="false">paycas agent info update</string>
+    <string name="paycast_agent_file_update" translatable="false">paycas agent file update</string>
+
+</resources>
